@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/logo_vietalk.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Dancing+Script:wght@500&family=Montserrat:ital,wght@0,700;0,900;1,400;1,500&family=Poppins&family=Roboto:wght@500;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Montserrat:ital,wght@0,700;0,900;1,400;1,500&family=Poppins&family=Roboto:wght@500;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!--    Font Awesme-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+
+
+  <body>
+
+       <nav class="navbar navbar-expand-lg  py-3 navbar-light" aria-label="Fifth navbar example">
+        <div class="container">
+          <a href="{{url_for('home')}}" class="navbar-brand">
+          <img src="images/logo_vietalk.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+          <span class="text-uppercase font-weight-bold">VieTalk Project</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active px-3" aria-current="page" href="{{url_for('home')}}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  px-3" aria-current="page" href="#features">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  px-3" aria-current="page" href="#become-instructor">Instructors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  px-3" aria-current="page" href="#donation">Donation</a>
+              </li>
+
+            </ul>
+
+
+
+
+          </div>
+        </div>
+      </nav>
+
+
+
+      <section id = "main-page" class = "fade-in">
+
+          <div class="row  main-page-row ">
+
+
+            <div class="col-lg-12" >
+              <h1 class = "welcome-text animate-slide-in ">Welcome Home</h1>
+                <a href="https://forms.gle/SFsjGb62hcH3sjZT8">
+                  <button type="button" class="btn  btn-register btn-lg">Register</button>
+               </a>
+
+            </div>
+
+
+
+
+          </div>
+
+    </section>
+
+
+    <section id= "features">
+
+    <div class='container-fluid mx-auto mt-5 mb-5 col-12 feature-section rounded' style="text-align: center">
+        <div class="hd">Why VieTalk?</div>
+        <p><small class="text-descript">Always render more and better service than <br />is expected of you, no matter what your ask may be.</small></p>
+        <div class="row" style="justify-content: center">
+
+
+
+            <div class="card col-md-3 col-12 ml-2 card-feature rounded">
+                <div class="card-content">
+                    <div class="card-body"> <i class="fas fa-gamepad fa-5x image-feature" style="color:#B3541E;"></i>
+                        <div class="card-title"> We build engaging classrooms. </div>
+                        <div class="card-subtitle">
+                            <p> <small class="text-muted"> We don't like boring classes and neither do you. That's why VieTalk's curriculum is curated by so many interactive exercises and activities but also guaranteed about the content by professionals in the field.</small> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-md-3 col-12 ml-2 card-feature rounded">
+                <div class="card-content">
+                    <div class="card-body"> <i class="fas fa-users fa-5x image-feature"  style="color:#0F2C67;"></i>
+                        <div class="card-title"> We build a community. </div>
+                        <div class="card-subtitle">
+                            <p> <small class="text-muted"> We not only build a class but a community for students to learn and immerse themselves in the Vietnamese environment and culture. We're happy that you could be a part of our VieTalk family.</small> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+              <div class="card col-md-3 col-12 card-feature rounded">
+                <div class="card-content">
+                    <div class="card-body"> <i class="fas fa-money-bill-alt fa-5x image-feature" style="color:#519259;"></i>
+                        <div class="shadow"></div>
+                        <div class="card-title"> We're Free </div>
+                        <div class="card-subtitle">
+                            <p> <small> class="text-muted">What's better than a community and engaging activities? It's free. We are committed to bring the best education at zero cost.</small> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+  <!-- Testimonials -->
+
+
+
+
+    <!-- Section: Features v.2  #B3541E #B762C1 -->
+    <section class="my-5" id = "testimonials">
+
+       <h2 class="pb-2 border-bottom fade-in mb-5">Why do I want to learn Vietnamese? </h2>
+
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-6">
+            <div class="flip-card border-0">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/ppl_1_bg.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back" style="background-color:#003262">
+                  <h1>Vivian Nguyen</h1>
+                  <p>(The First Generation VieTalker)</p>
+                  <p> I grew up speaking Vietnamese in my house but once I moved away to college, my fluency digressed massively. <br>I never got exposed to Vietnamese speaker but VieTalk has created a cozy environment that I can dwell in and call my home.</p>
+                </div>
+              </div>
+            </div>
+
+
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-6">
+            <div class="flip-card border-0">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/ppl_2_bg.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back" style="background-color:#D9661F">
+                  <h1>Angela Tran</h1>
+                  <p>(The Second Generation VieTalker)</p>
+                  <p>I want to learn Vietnamese to better communicate with my family, especially my ba ngoai. As I've grown older, I realize the importance of connecting back to my culture and I would love to visit Vietnam and have an efficient understanding of the language.</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+         <div class="col-lg-4 col-md-6 " >
+            <div class="flip-card border-0">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/ppl_3_bg.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back" style="background-color:#FDB515">
+                  <h1>Nick Truong</h1>
+                  <p>(The Second Generation VieTalker)</p>
+                  <p>As I look toward my future, I also want to be able to teach Vietnamese to my children so that they can have the cultural knowledge that I wish I had growing up!</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+    </section>
+
+    <section id = "apply-cta">
+          <hr>
+          <div class="row">
+
+            <div class="apply-cta-small col-lg-12" >
+               <div>
+                   <h1 class = "apply-text "> Ready to Register</h1>
+                   <h4 class>And take your Vietnamese to the next level  </h4>
+
+               </div>
+               <a href="https://forms.gle/SFsjGb62hcH3sjZT8">
+                  <button type="button" class="btn btn-dark btn-register btn-lg">Register</button>
+               </a>
+
+
+
+            </div>
+
+          </div>
+          <hr>
+    </section>
+
+    <section id ="donation">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="donation-img-div">
+                        <img src="images/dream_1.png" alt="" class="img-fluid hoverable-img">
+                        <img src="images/dream_2.png" alt="" class="img-fluid mt-4 hoverable-img">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="donation-img-div mt-4 mt-lg-0">
+                        <img src="images/dream_3.png" alt="" class="img-fluid hoverable-img">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-content pl-4 mt-4 mt-lg-0">
+                        <h2 class="title-text">Want To Become <br> a Dream-Maker?</h2>
+                        <p class="mt-4 mb-5">Your help makes our dream of sharing Vietnamese pride to the world possible. And help bring quality lessons to thousands of students.</p>
+
+                         <a href="https://www.gofundme.com/f/vietalk-project-vietnamese-language-students?fbclid=IwAR1meLT4T2WOeFrkxEW5ZoKxS3RRbzyGKsyXTQy1tfInRerS3YXU3gXxtio ">
+                          <button type="button" class="btn btn-dark btn-register btn-lg">Donate</button>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id = "become-instructor" class = "getting-involved">
+      <hr>
+      <div class="row fade-in">
+
+        <div class="col-lg-6" >
+           <div>
+               <h1 class = "title-text"> Or Want To Get Involved?</h1>
+               <p> Want to share and kindle your love for Vietnamese culture to others. <br>What's better to teach and be a part of VieTalk Project?</p>
+           </div>
+           <a href="https://forms.gle/t7kUsPtLZaNQL3Dq5">
+              <button type="button" class="btn btn-dark btn-register btn-lg">Apply</button>
+           </a>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img src="images/instructor.png" alt="" class = "instructor-img hoverable-img">
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+     <div>
+
+      <footer class="text-center text-lg-start" style="background-color: #003262;">
+        <div class="container d-flex justify-content-center py-5">
+
+           <a href="https://www.facebook.com/vietalkproject/">
+          <button type="button" class="btn btn-light btn-lg btn-floating mx-2" style="background-color: #EEEEEE;">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+
+        </a>
+
+        <a href="https://www.linkedin.com/company/vietalk-project/about/">
+          <button type="button" class="btn btn-light btn-lg btn-floating mx-2" style="background-color: #EEEEEE;">
+            <i class="fab fa-linkedin"></i>
+          </button>
+
+        </a>
+
+         <a href="https://www.instagram.com/vietalk_project/">
+          <button type="button" class="btn btn-light btn-lg btn-floating mx-2" style="background-color: #EEEEEE;">
+            <i class="fab fa-instagram"></i>
+          </button>
+
+        </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright
+
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+
+<!-- End of .container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
+<!-- https://www.gofundme.com/f/vietalk-project-vietnamese-language-students?fbclid=IwAR1meLT4T2WOeFrkxEW5ZoKxS3RRbzyGKsyXTQy1tfInRerS3YXU3gXxtio -->
+

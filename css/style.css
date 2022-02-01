@@ -299,10 +299,10 @@ height:80%;
 /* Change style when the screen is small */
 
 @media only screen and (max-width: 700px) {
-  .donation-img-div{
+  .disappear-small-screen{
     display: none;
   }
-  .donation-img-div-appear{
+  .small-screen-display-donation{
   width:200px;
   height:80%;
   margin:auto

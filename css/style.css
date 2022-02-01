@@ -31,17 +31,11 @@ font-size:8rem;
 .title-text{
 font-family: 'Ubuntu', sans-serif;
 font-size:3.2rem;
+margin-top:10%;
 
 }
 
 
-@media only screen and (min-width: 1000px) {
-    .title-text{
-     margin-top:10%
-
-    }
-
-}
 
 
 .btn-register{
@@ -75,9 +69,12 @@ margin: 50px;
     color:white;
 
 }
+
 .text-descript{
-color: #D0CAB2;
+color: #E9DAC1;
+
 }
+
 .card.hover,
 .card:hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
@@ -255,7 +252,6 @@ padding:5%
 font-family: 'Ubuntu', sans-serif;
 font-size:4.5rem;
 
-
 }
 
 
@@ -264,7 +260,7 @@ font-size:4.5rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:30rem;
+  width:80%;
   transition: transform 250ms;
 
 }
@@ -300,9 +296,51 @@ height:80%;
 
 }
 
+/* Change style when the screen is small */
+
 @media only screen and (max-width: 700px) {
   .donation-img-div{
     display: none;
+  }
+  .donation-img-div-appear{
+  width:200px;
+  height:80%;
+  margin:auto
+  }
+
+  .about-content, .getting-involved{
+  text-align:center;
+  }
+
+
+  .feature-section{
+    background-color:white;
+  }
+
+  .hd {
+    font-size: 25px;
+    font-weight: 550;
+    color:black;
+  }
+  .text-descript{
+    color: #1572A1;
+
+  }
+
+  .welcome-text{
+    font-family: 'Dancing Script', cursive;
+    font-size:6.5rem;
+  }
+  .flip-card{
+  margin:auto;
+
+  }
+  .apply-text{
+  size : 2rem;
+  }
+
+  .title-text{
+  size : 3rem;
   }
 }
 

@@ -36,7 +36,10 @@ margin-top:10%;
 }
 
 
-
+.btn-dropdown {
+background-color:#0f4d92 !important;
+color: white  !important;
+}
 
 .btn-register{
 margin-top:10px;
